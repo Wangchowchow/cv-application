@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PivotalButton from "./PivotalButton";
 
 class ToggleEdit extends Component {
     constructor(props) {
@@ -18,7 +19,7 @@ class ToggleEdit extends Component {
         } else if (this.state.edit === false) {
             return <div className="about-me">
                 <p>{this.state.value}</p>
-                <input type="button" value="Edit" onClick={this.editState} className="edit-button"></input>
+                <PivotalButton mode={this.props.mode} value="Edit" className="edit-button" onClick={this.editState}></PivotalButton>
             </div>
         }
     }

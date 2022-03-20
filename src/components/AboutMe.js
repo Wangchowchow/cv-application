@@ -6,10 +6,10 @@ class AboutMe extends Component {
         return (
             <div className="about-me-container">
                 <h2>About Me</h2>
-                <ToggleEdit value="First Name"></ToggleEdit>
-                <ToggleEdit value="Last Name"></ToggleEdit>
-                <ToggleEdit value="Email"></ToggleEdit>
-                <ToggleEdit value="Address"></ToggleEdit>
+                <ToggleEdit value="Name" mode={this.props.mode}></ToggleEdit>
+                <ToggleEdit value="Address" mode={this.props.mode}></ToggleEdit>
+                <ToggleEdit value="Email" mode={this.props.mode}></ToggleEdit>
+                <ToggleEdit value="Phone Number" mode={this.props.mode}></ToggleEdit>
             </div>
         )
     }
