@@ -8,6 +8,7 @@ class ToggleEdit extends Component {
             value: this.props.value,
             edit: false,
         }
+        this.editState = this.editState.bind(this);
     }
 
     render() {
