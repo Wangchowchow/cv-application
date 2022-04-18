@@ -9,7 +9,7 @@ class ShowEducation extends Component {
                 <p>From         : {this.props.from}</p>
                 <p>To           : {this.props.to}</p>
                 <p>Description  : {this.props.description}</p>
-                <PivotalButton mode ={this.props.mode} value="Delete" className="delete-button" onClick={() => {
+                <PivotalButton mode={this.props.mode} value="Delete" className="delete-button" onClick={() => {
                     this.props.deleteEducation(this.props.index)
                 }}></PivotalButton>
             </div>
