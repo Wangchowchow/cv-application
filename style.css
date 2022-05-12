@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding: 1rem;
+}
+.app{
+    padding: 2rem;
+    background-color: gainsboro;
+}
+.app>input{
+    display: block;
+    margin: auto;
+    padding: 0.4rem;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+.app>input:hover{
+    outline: 2px solid black;
+}
+.about-me-container,.my-education-container,.my-experience-container{
+    width: 50%;
+    padding: 2rem;
+    margin: 2rem auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+h2{
+    padding-bottom: 1rem;
+}
+.about-me{
+    display: flex;
+    gap: 5rem;
+}
+.about-me p{
+    flex: 1;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+}
+.about-me input:first-child{
+    flex: 1;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0.5rem 0;
+    border: none;
+    outline: 2px solid black;
+}
+.edit-button,.save-button{
+    width: 5rem;
+    height: 1.5rem;
+    align-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+}
+.edit-button{
+    background-color: aliceblue;
+}
+.save-button{
+    background-color: cornsilk;
+}
+.edit-button:hover,.save-button:hover{
+    background-color: blanchedalmond;
+}
+.my-education>.my-education{
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: lavender;
+}
+.delete-button{
+    display: block;
+    margin: auto;
+    width: 5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    background-color: coral;
+}
+.delete-button:hover{
+    background-color: orangered;
+}
+.add-button,.submit-button{
+    width: 5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    background-color: azure;
+}
+.add-button:hover,.submit-button:hover{
+    background-color: lightcyan ;
+}
+.my-experience>.my-experience{
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: lavender;
+}
