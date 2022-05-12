@@ -8,6 +8,6 @@ This is a CV application web page.
 ## Notes
 * Two modes available by toggle.
 * Mode: Input to edit CV.
-* Mode: Preview to hide buttons in application.
+* Mode: Preview to hide buttons in page.
 ## Live Version
 [CV Application](https://wangchowchow.github.io/cv-application/)
